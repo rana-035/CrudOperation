@@ -1,0 +1,38 @@
+﻿@using ViewModel
+@model EmployeeEditViewModel
+@{
+    ViewBag.Title = "UpdateEmployee";
+}
+
+<h2>UpdateEmployee</h2>
+
+
+<div class="container">
+
+    @using (Html.BeginForm("UpdateEmployee", "Employee", FormMethod.Post))
+    {
+        @Html.LabelFor(e => e.Name)
+        @Html.TextBoxFor(e => e.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.Name)
+        <br />
+        @Html.LabelFor(e => e.Phone)
+        @Html.TextBoxFor(e => e.Phone, new { @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.Phone)
+        <br />
+        @Html.LabelFor(e => e.Address)
+        @Html.TextBoxFor(e => e.Address, new { @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.Address)
+        <br />
+
+        @Html.DropDownListFor(i => i.DepartmentID, new SelectList(ViewBag.Deps, "ID", "Name"), new { @class = "form-control" })
+
+
+
+        <input type="submit" value="Update" class="btn btn-success" />
+        @Html.ActionLink("Cancel", "All", new { @class = "btn btn-danger" });
+
+    }
+
+</div>
+
+

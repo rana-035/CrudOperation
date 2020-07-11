@@ -1,0 +1,48 @@
+﻿@using ViewModel
+@model IEnumerable<EmployeeViewModel>
+@{
+    ViewBag.Title = "All";
+}
+<h2>AllEmployee</h2>
+
+<br>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Address</th>
+            <th scope="col">Department</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <th scope="row">@Html.DisplayFor(e => emp.ID)</th>
+                <td>@Html.DisplayFor(e => emp.Name)</td>
+                <td>@Html.DisplayFor(e => emp.Phone)</td>
+                <td>@Html.DisplayFor(e => emp.Address)</td>
+
+                <td>@Html.DisplayFor(e => emp.DepartmentName)</td>
+                <td>@Html.ActionLink("Detailes", "UpdateEmployee", new { id = emp.ID })</td>
+
+                <td>@Html.ActionLink("Delete", "DeleteEmployee", new { id = emp.ID })</td>
+
+
+            </tr>
+
+        }
+
+        <p>
+            <a class="btn btn-success" href="@Url.Action("exportReport")">Download Report</a>
+        </p>
+    </tbody>
+    @Html.ActionLink("Add New Employee", "AddEmployee")
+
+
+</table>
+
+
+

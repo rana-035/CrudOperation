@@ -1,0 +1,12 @@
+D:\Job Taska\CRUDOperationsTask\Entities\bin\Debug\Entities.dll.config
+D:\Job Taska\CRUDOperationsTask\Entities\bin\Debug\Entities.dll
+D:\Job Taska\CRUDOperationsTask\Entities\bin\Debug\Entities.pdb
+D:\Job Taska\CRUDOperationsTask\Entities\bin\Debug\EntityFramework.dll
+D:\Job Taska\CRUDOperationsTask\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Job Taska\CRUDOperationsTask\Entities\bin\Debug\EntityFramework.xml
+D:\Job Taska\CRUDOperationsTask\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Job Taska\CRUDOperationsTask\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Job Taska\CRUDOperationsTask\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\Job Taska\CRUDOperationsTask\Entities\obj\Debug\Entities.dll
+D:\Job Taska\CRUDOperationsTask\Entities\obj\Debug\Entities.pdb
+D:\Job Taska\CRUDOperationsTask\Entities\obj\Debug\Entities.csprojAssemblyReference.cache

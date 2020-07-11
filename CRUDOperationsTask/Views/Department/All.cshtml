@@ -1,0 +1,37 @@
+﻿@using ViewModel
+@model IEnumerable<DepartmentViewModel>
+
+    @{
+        ViewBag.Title = "All";
+    }
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Manager</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dept in Model)
+            {
+                <tr>
+                    <th scope="row">@Html.DisplayFor(d => dept.ID)</th>
+                    <td>@Html.DisplayFor(d => dept.Name)</td>
+                    <td>@Html.DisplayFor(d => dept.ManegerName)</td>
+                    <td>@Html.ActionLink("Detailes", "UpdateDepartment", new { id = dept.ID })</td>
+                    <td>@Html.ActionLink("Delete", "DeleteDepartment", new { id = dept.ID })</td>
+                </tr>
+
+            }
+
+        </tbody>
+        @Html.ActionLink("Add New Department", "AddDepartment")
+
+
+    </table>
+
+
+
+

@@ -1,0 +1,17 @@
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\Repositires.dll.config
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\Repositires.dll
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\Repositires.pdb
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\Entities.dll
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\EntityFramework.dll
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\EntityFramework.SqlServer.dll
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\Entities.pdb
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\Entities.dll.config
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\EntityFramework.xml
+D:\Job Taska\CRUDOperationsTask\Repositires\bin\Debug\EntityFramework.SqlServer.xml
+D:\Job Taska\CRUDOperationsTask\Repositires\obj\Debug\Repositires.csprojAssemblyReference.cache
+D:\Job Taska\CRUDOperationsTask\Repositires\obj\Debug\Repositires.csproj.CoreCompileInputs.cache
+D:\Job Taska\CRUDOperationsTask\Repositires\obj\Debug\Repositires.csproj.CopyComplete
+D:\Job Taska\CRUDOperationsTask\Repositires\obj\Debug\Repositires.dll
+D:\Job Taska\CRUDOperationsTask\Repositires\obj\Debug\Repositires.pdb
+D:\Job Taska\CRUDOperationsTask\Repositires\obj\Debug\Repositires.Migrations.init.resources
+D:\Job Taska\CRUDOperationsTask\Repositires\obj\Debug\Repositires.csproj.GenerateResource.cache

@@ -1,0 +1,32 @@
+﻿@using ViewModel
+@model DepartmentEditViewModel
+@{
+    ViewBag.Title = "AddDepartment";
+}
+
+<h2>AddDepartment</h2>
+<div class="content">
+
+    @using (Html.BeginForm("AddDepartment", "Department", FormMethod.Post))
+    {
+        @Html.LabelFor(e => e.Name)
+        @Html.TextBoxFor(e => e.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.Name)
+        @Html.ValidationMessageFor(e => e.Name)
+        <br />
+
+        @Html.Label("Select Department")
+
+        @Html.DropDownListFor(i => i.MenegerID, new SelectList(ViewBag.managers, "ID", "Name"), new { @class = "form-control" })
+
+        <br />
+        <input type="submit" value="Add Department" class="btn btn-success" />
+        @Html.ActionLink("Cancel", "All", new { @class = "btn btn-danger" });
+
+    }
+
+
+
+</div>
+
+

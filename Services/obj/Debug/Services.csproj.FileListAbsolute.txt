@@ -1,0 +1,17 @@
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Services.dll
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Services.pdb
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Entities.dll
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Repositires.dll
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\ViewModel.dll
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\EntityFramework.dll
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Entities.pdb
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Entities.dll.config
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Repositires.pdb
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\Repositires.dll.config
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\ViewModel.pdb
+D:\Job Taska\CRUDOperationsTask\Services\bin\Debug\EntityFramework.xml
+D:\Job Taska\CRUDOperationsTask\Services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\Job Taska\CRUDOperationsTask\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\Job Taska\CRUDOperationsTask\Services\obj\Debug\Services.csproj.CopyComplete
+D:\Job Taska\CRUDOperationsTask\Services\obj\Debug\Services.dll
+D:\Job Taska\CRUDOperationsTask\Services\obj\Debug\Services.pdb

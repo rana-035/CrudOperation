@@ -1,0 +1,34 @@
+﻿@using ViewModel
+@model EmployeeEditViewModel
+@{
+    ViewBag.Title = "DeleteEmployee";
+}
+
+<h2>DeleteEmployee</h2>
+
+<div class="container">
+
+    @using (Html.BeginForm("DeleteEmployee", "Employee", FormMethod.Post))
+    {
+        @Html.LabelFor(e => e.Name)
+        @Html.TextBoxFor(e => e.Name, new { @class = "form-control" , @readonly = "readonly" })
+        @Html.LabelFor(e => e.Phone)
+        @Html.TextBoxFor(e => e.Phone, new { @class = "form-control", @readonly = "readonly" })
+        @Html.LabelFor(e => e.Address)
+        @Html.TextBoxFor(e => e.Address, new { @class = "form-control", @readonly = "readonly" })
+
+        @Html.DropDownListFor(i => i.DepartmentID, new SelectList(ViewBag.Deps, "ID", "Name"),
+                new { @class = "form-control", @readonly = "readonly" })
+
+
+
+        <input type="submit" value="Delete" />
+        @Html.ActionLink("Cancel", "All", new { @class = "btn btn-danger" });
+
+    }
+
+</div>
+
+
+
+

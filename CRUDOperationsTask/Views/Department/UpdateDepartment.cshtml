@@ -1,0 +1,62 @@
+﻿@using ViewModel
+@model DepartmentEditViewModel
+@{
+    ViewBag.Title = "UpdateDepartment";
+}
+
+<h2>UpdateDepartment</h2>
+<div class="content">
+
+    @using (Html.BeginForm("UpdateDepartment", "Department", FormMethod.Post))
+    {
+        @Html.LabelFor(e => e.Name)
+        @Html.TextBoxFor(e => e.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(e => e.Name)
+
+        @Html.Label("Select Department")
+
+        @Html.DropDownListFor(i => i.MenegerID, new SelectList(ViewBag.managers, "ID", "Name"), new { @class = "form-control" })
+
+        <br />
+        <input type="submit" value="Update Department" class="btn btn-success" />
+        @Html.ActionLink("Cancel", "All", new { @class = "btn btn-danger" });
+
+    }
+    <h2>All Employee in This Department </h2>
+   
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Address</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @if(ViewBag.employees!=null)
+            {
+            foreach (EmployeeViewModel emp in ViewBag.employees)
+            {
+                <tr>
+                    <th scope="row">@Html.DisplayFor(e => emp.ID)</th>
+                    <td>@Html.DisplayFor(e => emp.Name)</td>
+                    <td>@Html.DisplayFor(e => emp.Phone)</td>
+                    <td>@Html.DisplayFor(e => emp.Address)</td>
+
+
+                </tr>
+
+            }
+            }
+
+
+        </tbody>
+    </table>
+
+    
+
+</div>
+
+
